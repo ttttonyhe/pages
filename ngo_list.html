@@ -1,0 +1,1095 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8ef6bc5dc07e07774e36d0d787b54577 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_8ef6bc5dc07e07774e36d0d787b54577" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_8ef6bc5dc07e07774e36d0d787b54577 = L.map(
+                "map_8ef6bc5dc07e07774e36d0d787b54577",
+                {
+                    center: [22.3193, 114.1694],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ee70cd621a997de043ae92136391663b = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_8ef6bc5dc07e07774e36d0d787b54577);
+        
+    
+            var marker_66390db648f3a605ecbf1b5fd7170151 = L.marker(
+                [22.27753776, 114.179643],
+                {}
+            ).addTo(map_8ef6bc5dc07e07774e36d0d787b54577);
+        
+    
+            var icon_26d96757a31659523b0c6cb2b5c5f749 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_66390db648f3a605ecbf1b5fd7170151.setIcon(icon_26d96757a31659523b0c6cb2b5c5f749);
+        
+    
+        var popup_ca4862086e3fdd841d79a3dfd75e6aaf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5fa5b044d86b0c3dfe5c49fda4f6631f = $(`<div id="html_5fa5b044d86b0c3dfe5c49fda4f6631f" style="width: 100.0%; height: 100.0%;">Baptist Oi Kwan Social Service</div>`)[0];
+                popup_ca4862086e3fdd841d79a3dfd75e6aaf.setContent(html_5fa5b044d86b0c3dfe5c49fda4f6631f);
+            
+        
+
+        marker_66390db648f3a605ecbf1b5fd7170151.bindPopup(popup_ca4862086e3fdd841d79a3dfd75e6aaf)
+        ;
+
+        
+    
+    
+            var marker_2f212c858c233506a7b569ab6b1dc291 = L.marker(
+                [22.2776688, 114.1750993],
+                {}
+            ).addTo(map_8ef6bc5dc07e07774e36d0d787b54577);
+        
+    
+            var icon_6ec36f4fc8706f1d54b5a5582d9e7e0b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2f212c858c233506a7b569ab6b1dc291.setIcon(icon_6ec36f4fc8706f1d54b5a5582d9e7e0b);
+        
+    
+        var popup_4e85e3c47371a33daa7188bb42ae6d14 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4a38a433997f51870863cb6d5685f070 = $(`<div id="html_4a38a433997f51870863cb6d5685f070" style="width: 100.0%; height: 100.0%;">Caritas - Hong Kong</div>`)[0];
+                popup_4e85e3c47371a33daa7188bb42ae6d14.setContent(html_4a38a433997f51870863cb6d5685f070);
+            
+        
+
+        marker_2f212c858c233506a7b569ab6b1dc291.bindPopup(popup_4e85e3c47371a33daa7188bb42ae6d14)
+        ;
+
+        
+    
+    
+            var marker_61ad89931430d2b9aef76679e57e2e7a = L.marker(
+                [22.31424158, 114.1739982],
+                {}
+            ).addTo(map_8ef6bc5dc07e07774e36d0d787b54577);
+        
+    
+            var icon_fd7e3720591ee2690225fb32a27e4553 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_61ad89931430d2b9aef76679e57e2e7a.setIcon(icon_fd7e3720591ee2690225fb32a27e4553);
+        
+    
+        var popup_7bcb3ae7160a13c814f5b163160ecc2c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6dabfa761d16fe544d388078cb6d58cb = $(`<div id="html_6dabfa761d16fe544d388078cb6d58cb" style="width: 100.0%; height: 100.0%;">Chinese YMCA of Hong Kong</div>`)[0];
+                popup_7bcb3ae7160a13c814f5b163160ecc2c.setContent(html_6dabfa761d16fe544d388078cb6d58cb);
+            
+        
+
+        marker_61ad89931430d2b9aef76679e57e2e7a.bindPopup(popup_7bcb3ae7160a13c814f5b163160ecc2c)
+        ;
+
+        
+    
+    
+            var marker_352addee13cd85af554d857dc4711eb6 = L.marker(
+                [22.32064135, 114.1582837],
+                {}
+            ).addTo(map_8ef6bc5dc07e07774e36d0d787b54577);
+        
+    
+            var icon_43e1d4256ce571a9575ddc31e42d71fd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_352addee13cd85af554d857dc4711eb6.setIcon(icon_43e1d4256ce571a9575ddc31e42d71fd);
+        
+    
+        var popup_f4fc10bdc08cde4ed833376a94012aee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_06afc7d945de4fb9f1ec5875b51d7d94 = $(`<div id="html_06afc7d945de4fb9f1ec5875b51d7d94" style="width: 100.0%; height: 100.0%;">Christian & Missionary Alliance Social Services</div>`)[0];
+                popup_f4fc10bdc08cde4ed833376a94012aee.setContent(html_06afc7d945de4fb9f1ec5875b51d7d94);
+            
+        
+
+        marker_352addee13cd85af554d857dc4711eb6.bindPopup(popup_f4fc10bdc08cde4ed833376a94012aee)
+        ;
+
+        
+    
+    
+            var marker_cefd5f64ce4d0842e6f38ac5c981e8b1 = L.marker(
+                [22.32226869, 114.1634228],
+                {}
+            ).addTo(map_8ef6bc5dc07e07774e36d0d787b54577);
+        
+    
+            var icon_e457955ce12d4a1faf287f79daeb8775 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cefd5f64ce4d0842e6f38ac5c981e8b1.setIcon(icon_e457955ce12d4a1faf287f79daeb8775);
+        
+    
+        var popup_b016f1951d47169b360183c57205a633 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c4062945d28f1c9c80ffb305fa35ccb5 = $(`<div id="html_c4062945d28f1c9c80ffb305fa35ccb5" style="width: 100.0%; height: 100.0%;">Christian Action</div>`)[0];
+                popup_b016f1951d47169b360183c57205a633.setContent(html_c4062945d28f1c9c80ffb305fa35ccb5);
+            
+        
+
+        marker_cefd5f64ce4d0842e6f38ac5c981e8b1.bindPopup(popup_b016f1951d47169b360183c57205a633)
+        ;
+
+        
+    
+    
+            var marker_0e44cedc90f4c746dfd88dde05e0f9de = L.marker(
+                [22.31380694, 114.2290393],
+                {}
+            ).addTo(map_8ef6bc5dc07e07774e36d0d787b54577);
+        
+    
+            var icon_f8cff7dfe610f42199ede75996ee15de = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0e44cedc90f4c746dfd88dde05e0f9de.setIcon(icon_f8cff7dfe610f42199ede75996ee15de);
+        
+    
+        var popup_fe54dd957c836476aa2106b80523a866 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b8725b4b05a116cd99cfae0f76a23341 = $(`<div id="html_b8725b4b05a116cd99cfae0f76a23341" style="width: 100.0%; height: 100.0%;">Christian Family Service Centre</div>`)[0];
+                popup_fe54dd957c836476aa2106b80523a866.setContent(html_b8725b4b05a116cd99cfae0f76a23341);
+            
+        
+
+        marker_0e44cedc90f4c746dfd88dde05e0f9de.bindPopup(popup_fe54dd957c836476aa2106b80523a866)
+        ;
+
+        
+    
+    
+            var marker_e09ea90528d917bfbafa9b3e8482202d = L.marker(
+                [22.31383581, 114.1729095],
+                {}
+            ).addTo(map_8ef6bc5dc07e07774e36d0d787b54577);
+        
+    
+            var icon_8d974dffd8f52775083db557ee47e0c0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e09ea90528d917bfbafa9b3e8482202d.setIcon(icon_8d974dffd8f52775083db557ee47e0c0);
+        
+    
+        var popup_fe2af247fab918924513dc1e77d98099 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a3d49cb42918fb5e504dfff334fdb5c0 = $(`<div id="html_a3d49cb42918fb5e504dfff334fdb5c0" style="width: 100.0%; height: 100.0%;">Evangelical Lutheran Church Social Service Hong Kong</div>`)[0];
+                popup_fe2af247fab918924513dc1e77d98099.setContent(html_a3d49cb42918fb5e504dfff334fdb5c0);
+            
+        
+
+        marker_e09ea90528d917bfbafa9b3e8482202d.bindPopup(popup_fe2af247fab918924513dc1e77d98099)
+        ;
+
+        
+    
+    
+            var marker_8b5008a96ec58a93208b6633a3c6cf39 = L.marker(
+                [22.30400915, 114.1897487],
+                {}
+            ).addTo(map_8ef6bc5dc07e07774e36d0d787b54577);
+        
+    
+            var icon_367e3f95a774a7a7b31793e73f0bfd28 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8b5008a96ec58a93208b6633a3c6cf39.setIcon(icon_367e3f95a774a7a7b31793e73f0bfd28);
+        
+    
+        var popup_fbd9689fed1ace3cf753ba6b1aa4c96d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_766ed731030391c352991467aece6b94 = $(`<div id="html_766ed731030391c352991467aece6b94" style="width: 100.0%; height: 100.0%;">Hong Kong Children & Youth Services</div>`)[0];
+                popup_fbd9689fed1ace3cf753ba6b1aa4c96d.setContent(html_766ed731030391c352991467aece6b94);
+            
+        
+
+        marker_8b5008a96ec58a93208b6633a3c6cf39.bindPopup(popup_fbd9689fed1ace3cf753ba6b1aa4c96d)
+        ;
+
+        
+    
+    
+            var marker_b8f565ec1bbf74dd8ddc7c74b20aba4f = L.marker(
+                [22.30142877, 114.1744292],
+                {}
+            ).addTo(map_8ef6bc5dc07e07774e36d0d787b54577);
+        
+    
+            var icon_9c8a429b89caaf29c7e3421c96e86013 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b8f565ec1bbf74dd8ddc7c74b20aba4f.setIcon(icon_9c8a429b89caaf29c7e3421c96e86013);
+        
+    
+        var popup_6aaa63b3785874d7e0f9e3c0f6c1f8c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_952e5ea018dcde2948117a20d5a78702 = $(`<div id="html_952e5ea018dcde2948117a20d5a78702" style="width: 100.0%; height: 100.0%;">Hong Kong Christian Service</div>`)[0];
+                popup_6aaa63b3785874d7e0f9e3c0f6c1f8c6.setContent(html_952e5ea018dcde2948117a20d5a78702);
+            
+        
+
+        marker_b8f565ec1bbf74dd8ddc7c74b20aba4f.bindPopup(popup_6aaa63b3785874d7e0f9e3c0f6c1f8c6)
+        ;
+
+        
+    
+    
+            var marker_acca12206d53e522990b8922c5573aa3 = L.marker(
+                [22.27807847, 114.1699336],
+                {}
+            ).addTo(map_8ef6bc5dc07e07774e36d0d787b54577);
+        
+    
+            var icon_0290de203d9f4b797b1943056f7f073f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_acca12206d53e522990b8922c5573aa3.setIcon(icon_0290de203d9f4b797b1943056f7f073f);
+        
+    
+        var popup_30697c58502acc0fef130159e1971b38 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c0cb43264238ff68c53363a509ba770f = $(`<div id="html_c0cb43264238ff68c53363a509ba770f" style="width: 100.0%; height: 100.0%;">Hong Kong Council of Social Service</div>`)[0];
+                popup_30697c58502acc0fef130159e1971b38.setContent(html_c0cb43264238ff68c53363a509ba770f);
+            
+        
+
+        marker_acca12206d53e522990b8922c5573aa3.bindPopup(popup_30697c58502acc0fef130159e1971b38)
+        ;
+
+        
+    
+    
+            var marker_5ef41552a93f1320232cf7a21597df88 = L.marker(
+                [22.33954835, 114.194324],
+                {}
+            ).addTo(map_8ef6bc5dc07e07774e36d0d787b54577);
+        
+    
+            var icon_e047d56733c9067eba7f0f98b74c0de6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5ef41552a93f1320232cf7a21597df88.setIcon(icon_e047d56733c9067eba7f0f98b74c0de6);
+        
+    
+        var popup_a7cb2cb79eb636ef1451aa27328a8b85 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d6600c200a9082a0e226436eb8e1cb20 = $(`<div id="html_d6600c200a9082a0e226436eb8e1cb20" style="width: 100.0%; height: 100.0%;">Hong Kong Employment Development Service Limited</div>`)[0];
+                popup_a7cb2cb79eb636ef1451aa27328a8b85.setContent(html_d6600c200a9082a0e226436eb8e1cb20);
+            
+        
+
+        marker_5ef41552a93f1320232cf7a21597df88.bindPopup(popup_a7cb2cb79eb636ef1451aa27328a8b85)
+        ;
+
+        
+    
+    
+            var marker_6d4a1e4a91e6e123cc6d3bb6755dd5c4 = L.marker(
+                [22.33971533, 114.1665755],
+                {}
+            ).addTo(map_8ef6bc5dc07e07774e36d0d787b54577);
+        
+    
+            var icon_eea61623f7e4b3c0888ac60b1dd8de2d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6d4a1e4a91e6e123cc6d3bb6755dd5c4.setIcon(icon_eea61623f7e4b3c0888ac60b1dd8de2d);
+        
+    
+        var popup_288dff0d4195db7f80a9052ae2192c25 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_80ac3564707f61c8d2128c74c5f6a58c = $(`<div id="html_80ac3564707f61c8d2128c74c5f6a58c" style="width: 100.0%; height: 100.0%;">Hong Kong Family Welfare Society</div>`)[0];
+                popup_288dff0d4195db7f80a9052ae2192c25.setContent(html_80ac3564707f61c8d2128c74c5f6a58c);
+            
+        
+
+        marker_6d4a1e4a91e6e123cc6d3bb6755dd5c4.bindPopup(popup_288dff0d4195db7f80a9052ae2192c25)
+        ;
+
+        
+    
+    
+            var marker_cd86ca6fe2ea4b0562793de89174263e = L.marker(
+                [22.33840102, 114.1569431],
+                {}
+            ).addTo(map_8ef6bc5dc07e07774e36d0d787b54577);
+        
+    
+            var icon_8ebbc4e87f40f3dc285799b48d72249f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cd86ca6fe2ea4b0562793de89174263e.setIcon(icon_8ebbc4e87f40f3dc285799b48d72249f);
+        
+    
+        var popup_9b17e4ee5ad8cc575bce83ce524f4919 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6208ec3225e8cf79f83af363962b2aa5 = $(`<div id="html_6208ec3225e8cf79f83af363962b2aa5" style="width: 100.0%; height: 100.0%;">Hong Kong Federation of Women's Centres</div>`)[0];
+                popup_9b17e4ee5ad8cc575bce83ce524f4919.setContent(html_6208ec3225e8cf79f83af363962b2aa5);
+            
+        
+
+        marker_cd86ca6fe2ea4b0562793de89174263e.bindPopup(popup_9b17e4ee5ad8cc575bce83ce524f4919)
+        ;
+
+        
+    
+    
+            var marker_6dcb84c76fe2d540640f44a61ab4a7f6 = L.marker(
+                [22.32060368, 114.1831167],
+                {}
+            ).addTo(map_8ef6bc5dc07e07774e36d0d787b54577);
+        
+    
+            var icon_23577e15cbda021d3c70d656b047163a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6dcb84c76fe2d540640f44a61ab4a7f6.setIcon(icon_23577e15cbda021d3c70d656b047163a);
+        
+    
+        var popup_09a92eff7b8558fd32d23846c4fbb204 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c9b487a9859791420987e5de48d341aa = $(`<div id="html_c9b487a9859791420987e5de48d341aa" style="width: 100.0%; height: 100.0%;">Hong Kong Lutheran Social Service</div>`)[0];
+                popup_09a92eff7b8558fd32d23846c4fbb204.setContent(html_c9b487a9859791420987e5de48d341aa);
+            
+        
+
+        marker_6dcb84c76fe2d540640f44a61ab4a7f6.bindPopup(popup_09a92eff7b8558fd32d23846c4fbb204)
+        ;
+
+        
+    
+    
+            var marker_87631f8408782bfe9e4be66d8b372448 = L.marker(
+                [22.32905499, 114.1642288],
+                {}
+            ).addTo(map_8ef6bc5dc07e07774e36d0d787b54577);
+        
+    
+            var icon_f8e2ae12aea01186eb95bac82a874245 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_87631f8408782bfe9e4be66d8b372448.setIcon(icon_f8e2ae12aea01186eb95bac82a874245);
+        
+    
+        var popup_8c37e82d3764f9a236106ea299f95d53 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8c6aa2902b405563bb59f24056066566 = $(`<div id="html_8c6aa2902b405563bb59f24056066566" style="width: 100.0%; height: 100.0%;">Hong Kong New Arrivals Services Foundation Limited</div>`)[0];
+                popup_8c37e82d3764f9a236106ea299f95d53.setContent(html_8c6aa2902b405563bb59f24056066566);
+            
+        
+
+        marker_87631f8408782bfe9e4be66d8b372448.bindPopup(popup_8c37e82d3764f9a236106ea299f95d53)
+        ;
+
+        
+    
+    
+            var marker_f6b8280d43d7098d9c7120e36637ab84 = L.marker(
+                [22.34054606, 114.1550412],
+                {}
+            ).addTo(map_8ef6bc5dc07e07774e36d0d787b54577);
+        
+    
+            var icon_f0077fac29a6aab376a7da20c2aef19f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f6b8280d43d7098d9c7120e36637ab84.setIcon(icon_f0077fac29a6aab376a7da20c2aef19f);
+        
+    
+        var popup_9dfea56b9bbbed8e7705a1916c812bae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7bf3324fa53779709ae967358c449d1f = $(`<div id="html_7bf3324fa53779709ae967358c449d1f" style="width: 100.0%; height: 100.0%;">Hong Kong New Immigrant Service Association</div>`)[0];
+                popup_9dfea56b9bbbed8e7705a1916c812bae.setContent(html_7bf3324fa53779709ae967358c449d1f);
+            
+        
+
+        marker_f6b8280d43d7098d9c7120e36637ab84.bindPopup(popup_9dfea56b9bbbed8e7705a1916c812bae)
+        ;
+
+        
+    
+    
+            var marker_36349d17b1fce95fad674c62c94fc2a6 = L.marker(
+                [22.32022977, 114.1719711],
+                {}
+            ).addTo(map_8ef6bc5dc07e07774e36d0d787b54577);
+        
+    
+            var icon_2272f379e1e9c8c545c07b34d7a50e17 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_36349d17b1fce95fad674c62c94fc2a6.setIcon(icon_2272f379e1e9c8c545c07b34d7a50e17);
+        
+    
+        var popup_7e32fbc748c0289f7d721851e545cbcc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_35d7e67e4a94413dcc55d667c9c80a7f = $(`<div id="html_35d7e67e4a94413dcc55d667c9c80a7f" style="width: 100.0%; height: 100.0%;">Hong Kong Playground Association</div>`)[0];
+                popup_7e32fbc748c0289f7d721851e545cbcc.setContent(html_35d7e67e4a94413dcc55d667c9c80a7f);
+            
+        
+
+        marker_36349d17b1fce95fad674c62c94fc2a6.bindPopup(popup_7e32fbc748c0289f7d721851e545cbcc)
+        ;
+
+        
+    
+    
+            var marker_75eb77d4da6b8503de443f432e7c04b5 = L.marker(
+                [22.36552315, 114.1364357],
+                {}
+            ).addTo(map_8ef6bc5dc07e07774e36d0d787b54577);
+        
+    
+            var icon_118c7b2f1c54fb53a50fc5ccd0fbd9e0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_75eb77d4da6b8503de443f432e7c04b5.setIcon(icon_118c7b2f1c54fb53a50fc5ccd0fbd9e0);
+        
+    
+        var popup_18882475737b12201e2cf40f38d4572f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2d77d04a75f1e4d37f5426e5cec25b7e = $(`<div id="html_2d77d04a75f1e4d37f5426e5cec25b7e" style="width: 100.0%; height: 100.0%;">Hong Kong Sheng Kung Hui Lady MacLehose Centre</div>`)[0];
+                popup_18882475737b12201e2cf40f38d4572f.setContent(html_2d77d04a75f1e4d37f5426e5cec25b7e);
+            
+        
+
+        marker_75eb77d4da6b8503de443f432e7c04b5.bindPopup(popup_18882475737b12201e2cf40f38d4572f)
+        ;
+
+        
+    
+    
+            var marker_99488e75c102bc6952718df7682b74f4 = L.marker(
+                [22.2757807, 114.1857197],
+                {}
+            ).addTo(map_8ef6bc5dc07e07774e36d0d787b54577);
+        
+    
+            var icon_a9bc1373b5d9c92bdd0609946b117651 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_99488e75c102bc6952718df7682b74f4.setIcon(icon_a9bc1373b5d9c92bdd0609946b117651);
+        
+    
+        var popup_1083236deeb3faed503d3571ed55633f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1b97fa746642fc209981ec805c86d476 = $(`<div id="html_1b97fa746642fc209981ec805c86d476" style="width: 100.0%; height: 100.0%;">Hong Kong Sheng Kung Hui Welfare Council</div>`)[0];
+                popup_1083236deeb3faed503d3571ed55633f.setContent(html_1b97fa746642fc209981ec805c86d476);
+            
+        
+
+        marker_99488e75c102bc6952718df7682b74f4.bindPopup(popup_1083236deeb3faed503d3571ed55633f)
+        ;
+
+        
+    
+    
+            var marker_a8b52e79e12a00c0b403d575f7b3c234 = L.marker(
+                [22.27880385, 114.1628687],
+                {}
+            ).addTo(map_8ef6bc5dc07e07774e36d0d787b54577);
+        
+    
+            var icon_9b6d072c1cd28826750ee4ca4b15255c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a8b52e79e12a00c0b403d575f7b3c234.setIcon(icon_9b6d072c1cd28826750ee4ca4b15255c);
+        
+    
+        var popup_c6c2027fc5af6599f3896acdf5b050b0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_35a806f645a0a1cbd2d112320872154a = $(`<div id="html_35a806f645a0a1cbd2d112320872154a" style="width: 100.0%; height: 100.0%;">Hong Kong Young Women's Christian Association</div>`)[0];
+                popup_c6c2027fc5af6599f3896acdf5b050b0.setContent(html_35a806f645a0a1cbd2d112320872154a);
+            
+        
+
+        marker_a8b52e79e12a00c0b403d575f7b3c234.bindPopup(popup_c6c2027fc5af6599f3896acdf5b050b0)
+        ;
+
+        
+    
+    
+            var marker_da34001296c9f5bb9ff0cd7532a49c57 = L.marker(
+                [22.2773564, 114.1727493],
+                {}
+            ).addTo(map_8ef6bc5dc07e07774e36d0d787b54577);
+        
+    
+            var icon_ebb63eb9f88ab5344970b17315c4e3ac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_da34001296c9f5bb9ff0cd7532a49c57.setIcon(icon_ebb63eb9f88ab5344970b17315c4e3ac);
+        
+    
+        var popup_771a79e56ed7d38aca210f54fb68e823 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_585e4df47d2ee39dfa75bb7db879b0d8 = $(`<div id="html_585e4df47d2ee39dfa75bb7db879b0d8" style="width: 100.0%; height: 100.0%;">International Social Service Hong Kong Branch</div>`)[0];
+                popup_771a79e56ed7d38aca210f54fb68e823.setContent(html_585e4df47d2ee39dfa75bb7db879b0d8);
+            
+        
+
+        marker_da34001296c9f5bb9ff0cd7532a49c57.bindPopup(popup_771a79e56ed7d38aca210f54fb68e823)
+        ;
+
+        
+    
+    
+            var marker_82b3462e8701ab6a5308ed1a645351b1 = L.marker(
+                [22.31844361, 114.1665226],
+                {}
+            ).addTo(map_8ef6bc5dc07e07774e36d0d787b54577);
+        
+    
+            var icon_276d820e1766886fc9645eed69e47493 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_82b3462e8701ab6a5308ed1a645351b1.setIcon(icon_276d820e1766886fc9645eed69e47493);
+        
+    
+        var popup_66da599a388b8a9c5ccf18bbcaa1246d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e36c942682d45f9dc422ef5d5b6eb35 = $(`<div id="html_1e36c942682d45f9dc422ef5d5b6eb35" style="width: 100.0%; height: 100.0%;">Mission to New Arrivals Ltd.</div>`)[0];
+                popup_66da599a388b8a9c5ccf18bbcaa1246d.setContent(html_1e36c942682d45f9dc422ef5d5b6eb35);
+            
+        
+
+        marker_82b3462e8701ab6a5308ed1a645351b1.bindPopup(popup_66da599a388b8a9c5ccf18bbcaa1246d)
+        ;
+
+        
+    
+    
+            var marker_773c08cd5fb27feb6db8d0a8f2d0d968 = L.marker(
+                [22.31022405, 114.17797],
+                {}
+            ).addTo(map_8ef6bc5dc07e07774e36d0d787b54577);
+        
+    
+            var icon_bbde22da52cd94a6a9bcdd4fa9faf736 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_773c08cd5fb27feb6db8d0a8f2d0d968.setIcon(icon_bbde22da52cd94a6a9bcdd4fa9faf736);
+        
+    
+        var popup_6d29f4e0784dcab7ba9135e0415c4540 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d7051a2fc11c10e0530b660309264271 = $(`<div id="html_d7051a2fc11c10e0530b660309264271" style="width: 100.0%; height: 100.0%;">New Home Association</div>`)[0];
+                popup_6d29f4e0784dcab7ba9135e0415c4540.setContent(html_d7051a2fc11c10e0530b660309264271);
+            
+        
+
+        marker_773c08cd5fb27feb6db8d0a8f2d0d968.bindPopup(popup_6d29f4e0784dcab7ba9135e0415c4540)
+        ;
+
+        
+    
+    
+            var marker_d0b9e819db8f6ef59ef9fd6b02500234 = L.marker(
+                [22.3015556, 114.2341643],
+                {}
+            ).addTo(map_8ef6bc5dc07e07774e36d0d787b54577);
+        
+    
+            var icon_128e5a6f0a9e60cb21adf68e8c2d243f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d0b9e819db8f6ef59ef9fd6b02500234.setIcon(icon_128e5a6f0a9e60cb21adf68e8c2d243f);
+        
+    
+        var popup_c2c604635a651f9d71897d0f3cb2857b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_04d202ae24db86b69dc753e5dbb9a4b1 = $(`<div id="html_04d202ae24db86b69dc753e5dbb9a4b1" style="width: 100.0%; height: 100.0%;">Project for New Arrivals, S.K.H St. Christopher's Home</div>`)[0];
+                popup_c2c604635a651f9d71897d0f3cb2857b.setContent(html_04d202ae24db86b69dc753e5dbb9a4b1);
+            
+        
+
+        marker_d0b9e819db8f6ef59ef9fd6b02500234.bindPopup(popup_c2c604635a651f9d71897d0f3cb2857b)
+        ;
+
+        
+    
+    
+            var marker_700337e2c3e4c0de2cd643e32b04baa1 = L.marker(
+                [22.34966192, 114.2279836],
+                {}
+            ).addTo(map_8ef6bc5dc07e07774e36d0d787b54577);
+        
+    
+            var icon_b3888d2f97a0d2bcb1533472efc18d0d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_700337e2c3e4c0de2cd643e32b04baa1.setIcon(icon_b3888d2f97a0d2bcb1533472efc18d0d);
+        
+    
+        var popup_2f8a16c3cf79d92da397876180c1243d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_804e44a3adbb3fb11c65e44bb8c65607 = $(`<div id="html_804e44a3adbb3fb11c65e44bb8c65607" style="width: 100.0%; height: 100.0%;">Sik Sik Yuen</div>`)[0];
+                popup_2f8a16c3cf79d92da397876180c1243d.setContent(html_804e44a3adbb3fb11c65e44bb8c65607);
+            
+        
+
+        marker_700337e2c3e4c0de2cd643e32b04baa1.bindPopup(popup_2f8a16c3cf79d92da397876180c1243d)
+        ;
+
+        
+    
+    
+            var marker_b1a832ca01546e9f4e557a403c5eb3f9 = L.marker(
+                [22.31598436, 114.1771752],
+                {}
+            ).addTo(map_8ef6bc5dc07e07774e36d0d787b54577);
+        
+    
+            var icon_4ba3f0f65f4ea9de6bbec8987eb04906 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b1a832ca01546e9f4e557a403c5eb3f9.setIcon(icon_4ba3f0f65f4ea9de6bbec8987eb04906);
+        
+    
+        var popup_37c8b3bd8797f35c63e5dd633faae822 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_93956f6d5206bbde17c38a5bcd1a0d9f = $(`<div id="html_93956f6d5206bbde17c38a5bcd1a0d9f" style="width: 100.0%; height: 100.0%;">Society for Community Organization</div>`)[0];
+                popup_37c8b3bd8797f35c63e5dd633faae822.setContent(html_93956f6d5206bbde17c38a5bcd1a0d9f);
+            
+        
+
+        marker_b1a832ca01546e9f4e557a403c5eb3f9.bindPopup(popup_37c8b3bd8797f35c63e5dd633faae822)
+        ;
+
+        
+    
+    
+            var marker_dfb4ebaf21128499e43b00aefc91781e = L.marker(
+                [22.28195111, 114.1784508],
+                {}
+            ).addTo(map_8ef6bc5dc07e07774e36d0d787b54577);
+        
+    
+            var icon_7adf9c5f286d0ba9901b3e7f1a82d55d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_dfb4ebaf21128499e43b00aefc91781e.setIcon(icon_7adf9c5f286d0ba9901b3e7f1a82d55d);
+        
+    
+        var popup_9dd480bd949ed32e2815b28d1c207607 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4510f960538eab8a0cfba7e1d3260f92 = $(`<div id="html_4510f960538eab8a0cfba7e1d3260f92" style="width: 100.0%; height: 100.0%;">The Boys' and Girls' Clubs Association of Hong Kong</div>`)[0];
+                popup_9dd480bd949ed32e2815b28d1c207607.setContent(html_4510f960538eab8a0cfba7e1d3260f92);
+            
+        
+
+        marker_dfb4ebaf21128499e43b00aefc91781e.bindPopup(popup_9dd480bd949ed32e2815b28d1c207607)
+        ;
+
+        
+    
+    
+            var marker_2049635ff8603c87dc9720e95b67b645 = L.marker(
+                [22.33770596, 114.1455934],
+                {}
+            ).addTo(map_8ef6bc5dc07e07774e36d0d787b54577);
+        
+    
+            var icon_5589372e4050508f91d6e53d5f1604e4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2049635ff8603c87dc9720e95b67b645.setIcon(icon_5589372e4050508f91d6e53d5f1604e4);
+        
+    
+        var popup_fc23cfa6778aeede5ddeed2a2a0fe07e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_37dbbea2415e78574d53c96e859a701d = $(`<div id="html_37dbbea2415e78574d53c96e859a701d" style="width: 100.0%; height: 100.0%;">The Church of United Brethren in Christ</div>`)[0];
+                popup_fc23cfa6778aeede5ddeed2a2a0fe07e.setContent(html_37dbbea2415e78574d53c96e859a701d);
+            
+        
+
+        marker_2049635ff8603c87dc9720e95b67b645.bindPopup(popup_fc23cfa6778aeede5ddeed2a2a0fe07e)
+        ;
+
+        
+    
+    
+            var marker_85b023c9e8d001d542eaf5bcae39bfaf = L.marker(
+                [22.28133468, 114.1821883],
+                {}
+            ).addTo(map_8ef6bc5dc07e07774e36d0d787b54577);
+        
+    
+            var icon_638f0e9f4a59be02a61d78910d6ca8e9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_85b023c9e8d001d542eaf5bcae39bfaf.setIcon(icon_638f0e9f4a59be02a61d78910d6ca8e9);
+        
+    
+        var popup_ab6980f268a501e39d0be714928f016f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_03002fe1a02231eff558f62443e5c4ae = $(`<div id="html_03002fe1a02231eff558f62443e5c4ae" style="width: 100.0%; height: 100.0%;">The Family Planning Association of Hong Kong</div>`)[0];
+                popup_ab6980f268a501e39d0be714928f016f.setContent(html_03002fe1a02231eff558f62443e5c4ae);
+            
+        
+
+        marker_85b023c9e8d001d542eaf5bcae39bfaf.bindPopup(popup_ab6980f268a501e39d0be714928f016f)
+        ;
+
+        
+    
+    
+            var marker_791e65382fa7d095a045103923df6ebf = L.marker(
+                [22.33011172, 114.2092725],
+                {}
+            ).addTo(map_8ef6bc5dc07e07774e36d0d787b54577);
+        
+    
+            var icon_0344842559367bcc43fbe078541e8480 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_791e65382fa7d095a045103923df6ebf.setIcon(icon_0344842559367bcc43fbe078541e8480);
+        
+    
+        var popup_b850600f9a591d80515b7208d8f58d13 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1a75e8ba09aad5b3cd19527bc63de4ba = $(`<div id="html_1a75e8ba09aad5b3cd19527bc63de4ba" style="width: 100.0%; height: 100.0%;">The Friends of Scouting</div>`)[0];
+                popup_b850600f9a591d80515b7208d8f58d13.setContent(html_1a75e8ba09aad5b3cd19527bc63de4ba);
+            
+        
+
+        marker_791e65382fa7d095a045103923df6ebf.bindPopup(popup_b850600f9a591d80515b7208d8f58d13)
+        ;
+
+        
+    
+    
+            var marker_a9a0c61d6d5876c97d18252a7790a49e = L.marker(
+                [22.29047281, 114.2079726],
+                {}
+            ).addTo(map_8ef6bc5dc07e07774e36d0d787b54577);
+        
+    
+            var icon_ccce7c1bf5c890c78476619b6cb5905c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a9a0c61d6d5876c97d18252a7790a49e.setIcon(icon_ccce7c1bf5c890c78476619b6cb5905c);
+        
+    
+        var popup_df64a58e9bac21aea1f67d651c7bd879 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4724fbb6cb8c1a30e420c1493316d484 = $(`<div id="html_4724fbb6cb8c1a30e420c1493316d484" style="width: 100.0%; height: 100.0%;">The Hong Kong Federation of Youth Groups</div>`)[0];
+                popup_df64a58e9bac21aea1f67d651c7bd879.setContent(html_4724fbb6cb8c1a30e420c1493316d484);
+            
+        
+
+        marker_a9a0c61d6d5876c97d18252a7790a49e.bindPopup(popup_df64a58e9bac21aea1f67d651c7bd879)
+        ;
+
+        
+    
+    
+            var marker_7010ff14cfd0fda374fadb20de4213b0 = L.marker(
+                [22.32178153, 114.1640931],
+                {}
+            ).addTo(map_8ef6bc5dc07e07774e36d0d787b54577);
+        
+    
+            var icon_1722a6cf2329cf1309fda6ec4b845590 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7010ff14cfd0fda374fadb20de4213b0.setIcon(icon_1722a6cf2329cf1309fda6ec4b845590);
+        
+    
+        var popup_0145041b969e24f431719b7d2ab4c983 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2154b4b0035851c09379419bf933d9fd = $(`<div id="html_2154b4b0035851c09379419bf933d9fd" style="width: 100.0%; height: 100.0%;">The Mongkok Kai Fong Association Ltd. Chan Hing Social Service Centre</div>`)[0];
+                popup_0145041b969e24f431719b7d2ab4c983.setContent(html_2154b4b0035851c09379419bf933d9fd);
+            
+        
+
+        marker_7010ff14cfd0fda374fadb20de4213b0.bindPopup(popup_0145041b969e24f431719b7d2ab4c983)
+        ;
+
+        
+    
+    
+            var marker_3f000b4aa33895f115133fa282d6fc83 = L.marker(
+                [22.34577006, 114.2010211],
+                {}
+            ).addTo(map_8ef6bc5dc07e07774e36d0d787b54577);
+        
+    
+            var icon_a37cb86bd8da32088383a0735e7f5ce1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3f000b4aa33895f115133fa282d6fc83.setIcon(icon_a37cb86bd8da32088383a0735e7f5ce1);
+        
+    
+        var popup_95cbea42717b654b8345553ead450ff2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7eb332f3b46f804d7be3cd6353db15a7 = $(`<div id="html_7eb332f3b46f804d7be3cd6353db15a7" style="width: 100.0%; height: 100.0%;">The Neighbourhood Advice - Action Council</div>`)[0];
+                popup_95cbea42717b654b8345553ead450ff2.setContent(html_7eb332f3b46f804d7be3cd6353db15a7);
+            
+        
+
+        marker_3f000b4aa33895f115133fa282d6fc83.bindPopup(popup_95cbea42717b654b8345553ead450ff2)
+        ;
+
+        
+    
+    
+            var marker_e66d2c1764482ab81866be4326959166 = L.marker(
+                [22.31136161, 114.1714457],
+                {}
+            ).addTo(map_8ef6bc5dc07e07774e36d0d787b54577);
+        
+    
+            var icon_1000acd73852439fc074da6914baebd1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e66d2c1764482ab81866be4326959166.setIcon(icon_1000acd73852439fc074da6914baebd1);
+        
+    
+        var popup_3fe117907037783594b217c6a4da8560 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2147a6994b2b9ebc241ab2564494109f = $(`<div id="html_2147a6994b2b9ebc241ab2564494109f" style="width: 100.0%; height: 100.0%;">The Salvation Army</div>`)[0];
+                popup_3fe117907037783594b217c6a4da8560.setContent(html_2147a6994b2b9ebc241ab2564494109f);
+            
+        
+
+        marker_e66d2c1764482ab81866be4326959166.bindPopup(popup_3fe117907037783594b217c6a4da8560)
+        ;
+
+        
+    
+    
+            var marker_e622e80b86316baabdcf14f2b63f842c = L.marker(
+                [22.27162903, 114.1255672],
+                {}
+            ).addTo(map_8ef6bc5dc07e07774e36d0d787b54577);
+        
+    
+            var icon_d6ac4743c976097d65c4f18e1b0dd46e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e622e80b86316baabdcf14f2b63f842c.setIcon(icon_d6ac4743c976097d65c4f18e1b0dd46e);
+        
+    
+        var popup_14bb00f2e2e922f2c59c640b2eaf4044 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6d035c524fdfa4934b53f109ee2862a4 = $(`<div id="html_6d035c524fdfa4934b53f109ee2862a4" style="width: 100.0%; height: 100.0%;">Tung Wah Group of Hospitals</div>`)[0];
+                popup_14bb00f2e2e922f2c59c640b2eaf4044.setContent(html_6d035c524fdfa4934b53f109ee2862a4);
+            
+        
+
+        marker_e622e80b86316baabdcf14f2b63f842c.bindPopup(popup_14bb00f2e2e922f2c59c640b2eaf4044)
+        ;
+
+        
+    
+    
+            var marker_fac1dbf4699ffee5de9bfe23a92c1b4c = L.marker(
+                [22.33692207, 114.1492713],
+                {}
+            ).addTo(map_8ef6bc5dc07e07774e36d0d787b54577);
+        
+    
+            var icon_6f1265b20ccc5545aaf7293c876b348b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fac1dbf4699ffee5de9bfe23a92c1b4c.setIcon(icon_6f1265b20ccc5545aaf7293c876b348b);
+        
+    
+        var popup_3014bbb5653ce0ef285e7d9f1fe0677b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a246d93172d4d2187a10b4f950a7461c = $(`<div id="html_a246d93172d4d2187a10b4f950a7461c" style="width: 100.0%; height: 100.0%;">Windshield Charitable Foundation</div>`)[0];
+                popup_3014bbb5653ce0ef285e7d9f1fe0677b.setContent(html_a246d93172d4d2187a10b4f950a7461c);
+            
+        
+
+        marker_fac1dbf4699ffee5de9bfe23a92c1b4c.bindPopup(popup_3014bbb5653ce0ef285e7d9f1fe0677b)
+        ;
+
+        
+    
+    
+            var marker_c039034d24de393281d45be20b07165b = L.marker(
+                [22.2802179, 114.1865428],
+                {}
+            ).addTo(map_8ef6bc5dc07e07774e36d0d787b54577);
+        
+    
+            var icon_942ad5a656e1c8613b7b2eaefd2db29f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c039034d24de393281d45be20b07165b.setIcon(icon_942ad5a656e1c8613b7b2eaefd2db29f);
+        
+    
+        var popup_45528c4e60b1c23cf6c662443b198d8c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9ecd0d67080575a3f2a27564c857427c = $(`<div id="html_9ecd0d67080575a3f2a27564c857427c" style="width: 100.0%; height: 100.0%;">Yan Oi Tong</div>`)[0];
+                popup_45528c4e60b1c23cf6c662443b198d8c.setContent(html_9ecd0d67080575a3f2a27564c857427c);
+            
+        
+
+        marker_c039034d24de393281d45be20b07165b.bindPopup(popup_45528c4e60b1c23cf6c662443b198d8c)
+        ;
+
+        
+    
+    
+            var marker_86250441c60104a99c6dc799c6ffc2a1 = L.marker(
+                [22.31441226, 114.1725926],
+                {}
+            ).addTo(map_8ef6bc5dc07e07774e36d0d787b54577);
+        
+    
+            var icon_31f144d8dcc9533335e6cdc09480d04d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_86250441c60104a99c6dc799c6ffc2a1.setIcon(icon_31f144d8dcc9533335e6cdc09480d04d);
+        
+    
+        var popup_6c812f978af5267aae15db111e52f445 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef12c14f5ba41276f77a62fed535f305 = $(`<div id="html_ef12c14f5ba41276f77a62fed535f305" style="width: 100.0%; height: 100.0%;">Yang Memorial Methodist Social Service Centre</div>`)[0];
+                popup_6c812f978af5267aae15db111e52f445.setContent(html_ef12c14f5ba41276f77a62fed535f305);
+            
+        
+
+        marker_86250441c60104a99c6dc799c6ffc2a1.bindPopup(popup_6c812f978af5267aae15db111e52f445)
+        ;
+
+        
+    
+</script>
+</html>
